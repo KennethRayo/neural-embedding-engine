@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Environments
+venv
+
+# IDEs
+.vscode
+.idea
+
 # Distribution / packaging
 .Python
 build/
@@ -216,3 +223,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project generated artifacts
+embeddings.pkl
